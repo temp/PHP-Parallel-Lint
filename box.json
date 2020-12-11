@@ -1,11 +1,6 @@
 {
     "output": "parallel-lint.phar",
-    "chmod": "0755",
-    "compactors": [
-        "Herrera\\Box\\Compactor\\Php"
-    ],
-    "extract": false,
-    "main": "parallel-lint.php",
+    "main": "parallel-lint",
     "files": [
         "LICENSE"
     ],
@@ -22,7 +17,5 @@
         {
             "in": "bin"
         }
-    ],
-    "stub": true,
-    "web": false
+    ]
 }
